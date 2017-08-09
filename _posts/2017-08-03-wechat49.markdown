@@ -1,6 +1,6 @@
 ---                                                                   
 layout:     post                                      
-title:      "2017803-POS线下银行卡收单业务"                                                                     
+title:      "20170803-POS线下银行卡收单业务"                                                                     
 date:       2017-08-03 19:00:00                                                                     
 author:     "PaymentGroup"                                
 tag:		[publish]                          
