@@ -1,6 +1,6 @@
 ---                                                                             
 layout:     post                                                
-title:      "20170722-清算主体设计及差异处理"                                                                               
+title:      "20170722-信用卡的支付清算"                                                                               
 date:       2017-07-22 19:00:00                                                                               
 author:     "PaymentGroup"                                          
 tag:		[publish]                                    
