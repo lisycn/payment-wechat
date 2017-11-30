@@ -1122,7 +1122,7 @@ img::-moz-selection {
   font-weight: bold;
   float: right;
 }
- .post_footer{ 
+.post_footer{ 
 	display: table; 
 	table-layout: fixed; 
 	width: 100%; 
@@ -1130,6 +1130,6 @@ img::-moz-selection {
 	margin:0px; 
 	padding:0px; 
 } 
- .post_footer li { 
+.post_footer li { 
 	display: table-cell; 
 }
