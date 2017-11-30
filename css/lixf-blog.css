@@ -1122,4 +1122,14 @@ img::-moz-selection {
   font-weight: bold;
   float: right;
 }
- 
+ .post_footer{ 
+	display: table; 
+	table-layout: fixed; 
+	width: 100%; 
+	list-style: none; 
+	margin:0px; 
+	padding:0px; 
+} 
+ .post_footer li { 
+	display: table-cell; 
+}
