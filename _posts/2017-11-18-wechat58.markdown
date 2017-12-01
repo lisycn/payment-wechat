@@ -2,7 +2,8 @@
 layout:     post                                                
 title:      "20171118-贷记账户账务处理"                                                                               
 date:       2017-11-18 19:00:00                                                                               
-author:     "PaymentGroup"                                          
+author:     "PaymentGroup"         
+catalog: 	true                                   
 tag:		[publish]                                    
 header-img: "img/post-bg-wechat.jpg"                                         
 ---        

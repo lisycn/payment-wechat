@@ -3,7 +3,8 @@ layout:     post
 title:      "20171002-清算主体设计及差异处理"                                                                             
 date:       2017-10-02 19:00:00                                                                             
 author:     "PaymentGroup"                                        
-tag:		[publish]                                  
+tag:		[publish]       
+catalog: 	true                            
 header-img: "img/post-bg-wechat.jpg"                                       
 ---      
   
