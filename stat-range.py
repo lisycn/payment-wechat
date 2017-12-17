@@ -4,7 +4,7 @@ import os
 import time
 import sys
 import cgi
-
+import datetime
 reload(sys) 
 sys.setdefaultencoding('utf8')
 
@@ -34,7 +34,8 @@ print('使用最新文件: '+ unpath +'\n')
 ## unpath = unicode(inpath, "utf8")
 
 source=open(unpath)
-target = codecs.open(r'D:/github/payment-wechat/stat.csv', 'w', encoding = 'utf-8', errors='ignore')
+targetpath = r'D:/github/payment-wechat/stat-'+ datetime.datetime.now().strftime("%Y-%m-%d")+'-range.csv'
+target = codecs.open(targetpath, 'w', encoding = 'utf-8', errors='ignore')
 target.write(u'姓名, 频率, 最后发言时间 \n')              
 freq ={}
 last = {}
@@ -80,7 +81,7 @@ finally:
 
 
 
-unpath = u'D:/iphone/微信消息记录-李雄峰的 iPhone/201712140934-凤凰牌老熊/表格格式/支付产品技术交流群.xls'
+unpath = u'D:/iphone/微信消息记录-李雄峰的 iPhone/201712161438-凤凰牌老熊/表格格式/支付产品技术交流群.xls'
 print('使用最新文件: '+ unpath +'\n')
 
 ## unpath = unicode(inpath, "utf8")
@@ -131,4 +132,4 @@ for wechat_no in freq:
 target.flush()
 target.close()
 
-print('完成导出：'+ unpath +'\n')
+print('完成导出：'+ targetpath +'\n')
